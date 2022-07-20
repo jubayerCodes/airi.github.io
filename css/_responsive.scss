@@ -7,6 +7,9 @@
     h2{
         font-size: 38px;
     }
+    p{
+        font-size: 16px;
+    }
 
     /* <========== Common ==========> */
     .main{
@@ -92,13 +95,43 @@
         .global{
             padding: 0;
             &__title{
-                padding: 50px 0;
+                padding: 50px 10px;
                 margin-bottom: 50px;
             }
             &__content{
                 grid-template: repeat(3, auto) / repeat(1, auto);
                 padding: 0 20px;
                 grid-gap: 40px;
+            }
+        }
+    }
+
+    /* <========== Testimonial ==========> */
+
+    .testimonial-area{
+        .testimonial{
+            &__content{
+                grid-template: repeat(2, auto) / repeat(1, auto);
+                grid-gap: 30px;
+                .box{
+                    padding: 30px;
+                    .content{
+                        p{
+                            font-size: 16px;
+                        }
+                    }
+                    .meta{
+                        img{
+                            width: 60px;
+                        }
+                        h4{
+                            font-size: 18px;
+                        }
+                        h6{
+                            font-size: 14px;
+                        }
+                    }
+                }
             }
         }
     }
