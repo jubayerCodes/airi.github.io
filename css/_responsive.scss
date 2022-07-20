@@ -1,0 +1,121 @@
+/* Extra small devices (phones, 450px and down) */
+@media only screen and (max-width: 450px) {
+    /* <========== Typography ==========> */
+    h1{
+        font-size: 45px;
+    }
+    h2{
+        font-size: 38px;
+    }
+
+    /* <========== Common ==========> */
+    .main{
+        max-width: 100%;
+        padding: 0 20px;
+        margin: 0;
+    }
+
+    .box-container{
+        max-width: 100%;
+    }
+
+    /* <========== Header ==========> */
+    .header-area{
+        .header{
+            padding: 10px 5px;
+            &__menu{
+                display: none;
+            }
+        }
+    }
+
+    /* <========== Banner ==========> */
+
+    /* <========== Services ==========> */
+
+    .services-area{
+        padding: 50px 0;
+        .services{
+            &__title{
+                h2{
+                    padding: 20px;
+                }
+            }
+            &__content{
+                grid-template: repeat(6, auto) / repeat(1, auto);
+                grid-column-gap: 0;
+                grid-row-gap: 0px;
+                justify-content: center;
+                .box{
+                    padding: 30px;
+                }
+            }
+        }
+    }
+
+    /* <========== Counter ==========> */
+
+    .counter-area{
+        padding: 50px 0;
+        .counter{
+            grid-template: repeat(4, auto) / repeat(1, auto);
+            grid-gap: 50px;
+        }
+    }
+
+    /* <========== Goals ==========> */
+
+    .goal-area{
+        padding: 50px 0;
+        .goal{
+            grid-template: repeat(2, auto) / repeat(1, auto);
+            grid-gap: 40px;
+            &__content{
+                grid-row: 2;
+            }
+            &__img{
+                display: grid;
+                justify-content: center;
+                a{
+                    display: inline-block;
+                    i{
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    /* <========== Global ==========> */
+
+    .global-area{
+        .global{
+            padding: 0;
+            &__title{
+                padding: 50px 0;
+                margin-bottom: 50px;
+            }
+            &__content{
+                grid-template: repeat(3, auto) / repeat(1, auto);
+                padding: 0 20px;
+                grid-gap: 40px;
+            }
+        }
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
