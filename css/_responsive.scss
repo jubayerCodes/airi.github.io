@@ -18,6 +18,10 @@
         margin: 0;
     }
 
+    .bg{
+        height: 70vh;
+    }
+
     .box-container{
         max-width: 100%;
     }
@@ -25,7 +29,7 @@
     /* <========== Header ==========> */
     .header-area{
         .header{
-            padding: 10px 5px;
+            padding: 10px;
             &__menu{
                 display: none;
             }
