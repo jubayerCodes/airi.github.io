@@ -703,7 +703,7 @@ a {
     padding: 20px;
   }
   .services-area .services__content {
-    grid-template: repeat(6, auto)/repeat(1, auto);
+    grid-template-columns: auto;
     grid-column-gap: 0;
     grid-row-gap: 0px;
     justify-content: center;
@@ -716,7 +716,7 @@ a {
     padding: 50px 0;
   }
   .counter-area .counter {
-    grid-template: repeat(4, auto)/repeat(1, auto);
+    grid-template-columns: auto;
     grid-gap: 50px;
   }
   /* <========== Goals ==========> */
@@ -724,7 +724,7 @@ a {
     padding: 50px 0;
   }
   .goal-area .goal {
-    grid-template: repeat(2, auto)/repeat(1, auto);
+    grid-template-columns: auto;
     grid-gap: 40px;
   }
   .goal-area .goal__content {
@@ -749,13 +749,13 @@ a {
     margin-bottom: 50px;
   }
   .global-area .global__content {
-    grid-template: repeat(3, auto)/repeat(1, auto);
+    grid-template-columns: auto;
     padding: 0 20px;
     grid-gap: 40px;
   }
   /* <========== Testimonial ==========> */
   .testimonial-area .testimonial__content {
-    grid-template: repeat(2, auto)/repeat(1, auto);
+    grid-template-columns: auto;
     grid-gap: 30px;
   }
   .testimonial-area .testimonial__content .box {
@@ -772,6 +772,48 @@ a {
   }
   .testimonial-area .testimonial__content .box .meta h6 {
     font-size: 14px;
+  }
+  /* <========== Team ==========> */
+  .team-area {
+    padding: 50px 0;
+  }
+  .team-area .team__content {
+    grid-template-columns: auto;
+    grid-gap: 40px;
+  }
+  /* <========== Blog ==========> */
+  .blog-area {
+    padding: 40px 0 50px;
+  }
+  .blog-area .blog__content {
+    grid-template-columns: auto;
+    grid-gap: 40px;
+  }
+  /* <========== Footer ==========> */
+  .footer-area {
+    padding: 50px 0;
+  }
+  .footer-area .footer__content {
+    grid-template-columns: auto;
+    grid-gap: 40px;
+  }
+  .footer-area .footer__content .box {
+    padding: 0;
+  }
+  .footer-area .footer__content .box-1 {
+    padding-right: 50px;
+  }
+  .footer-area .footer__content .box-1 .brand-name {
+    margin-bottom: 10px;
+  }
+  .footer-area .footer__content .box-4 .title .box-title h4 {
+    margin-bottom: 15px;
+  }
+  .footer-area .footer__content .middle .title a h4 {
+    margin-bottom: 20px;
+  }
+  .footer-area .footer__content .middle .content ul li {
+    margin-bottom: 10px;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */

@@ -45,7 +45,7 @@
                 }
             }
             &__content{
-                grid-template: repeat(6, auto) / repeat(1, auto);
+                grid-template-columns: auto;
                 grid-column-gap: 0;
                 grid-row-gap: 0px;
                 justify-content: center;
@@ -61,7 +61,7 @@
     .counter-area{
         padding: 50px 0;
         .counter{
-            grid-template: repeat(4, auto) / repeat(1, auto);
+            grid-template-columns: auto;
             grid-gap: 50px;
         }
     }
@@ -71,7 +71,7 @@
     .goal-area{
         padding: 50px 0;
         .goal{
-            grid-template: repeat(2, auto) / repeat(1, auto);
+            grid-template-columns: auto;
             grid-gap: 40px;
             &__content{
                 grid-row: 2;
@@ -99,7 +99,7 @@
                 margin-bottom: 50px;
             }
             &__content{
-                grid-template: repeat(3, auto) / repeat(1, auto);
+                grid-template-columns: auto;
                 padding: 0 20px;
                 grid-gap: 40px;
             }
@@ -111,7 +111,7 @@
     .testimonial-area{
         .testimonial{
             &__content{
-                grid-template: repeat(2, auto) / repeat(1, auto);
+                grid-template-columns: auto;
                 grid-gap: 30px;
                 .box{
                     padding: 30px;
@@ -129,6 +129,76 @@
                         }
                         h6{
                             font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /* <========== Team ==========> */
+
+    .team-area{
+        padding: 50px 0;
+        .team{
+            &__content{
+                grid-template-columns: auto;
+                grid-gap: 40px;
+            }
+        }
+    }
+
+    /* <========== Blog ==========> */
+
+    .blog-area{
+        padding: 40px 0 50px;
+        .blog{
+            &__content{
+                grid-template-columns: auto;
+                grid-gap: 40px;
+            }
+        }
+    }
+
+    /* <========== Footer ==========> */
+
+    .footer-area{
+        padding: 50px 0;
+        .footer{
+            &__content{
+                grid-template-columns: auto;
+                grid-gap: 40px;
+                .box{
+                    padding: 0;
+                    &-1{
+                        padding-right: 50px;
+                        .brand-name{
+                            margin-bottom: 10px;
+                        }
+                    }
+                    &-4{
+                        .title{
+                            .box-title{
+                                h4{
+                                    margin-bottom: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .middle{
+                    .title{
+                        a{
+                            h4{
+                                margin-bottom: 20px;
+                            }
+                        }
+                    }
+                    .content{
+                        ul{
+                            li{
+                                margin-bottom: 10px;
+                            }
                         }
                     }
                 }
