@@ -139,11 +139,12 @@ a{
     .header{
         width: 100%;
         display: grid;
-        grid-template-columns: 35% 60%;
+        grid-template-columns: 35% 50% 15%;
         justify-content: space-between;
+        align-content: center;
         grid-column-gap: 25px;
         padding: 15px 100px;
-        margin-bottom: -68px;
+        margin-bottom: -75px;
         z-index: 2;
         &__logo{
             a{
@@ -163,6 +164,9 @@ a{
                 grid-template-columns: repeat(5, auto);
                 justify-content: end;
                 grid-gap: 60px;
+                align-items: center;
+                padding: 0;
+                margin: 0;
                 li{
                     a{
                         color: white;
@@ -171,6 +175,15 @@ a{
                         text-transform: capitalize;
                     }
                 }
+            }
+        }
+        &__offcanvas-btn{
+            width: 100%;
+            margin: auto;
+            display: none;
+            i{
+                font-size: 30px;
+                color: white;
             }
         }
     }

@@ -125,11 +125,12 @@ a {
 .header-area .header {
   width: 100%;
   display: grid;
-  grid-template-columns: 35% 60%;
+  grid-template-columns: 35% 50% 15%;
   justify-content: space-between;
+  align-content: center;
   grid-column-gap: 25px;
   padding: 15px 100px;
-  margin-bottom: -68px;
+  margin-bottom: -75px;
   z-index: 2;
 }
 .header-area .header__logo a {
@@ -149,12 +150,24 @@ a {
   grid-template-columns: repeat(5, auto);
   justify-content: end;
   grid-gap: 60px;
+  align-items: center;
+  padding: 0;
+  margin: 0;
 }
 .header-area .header__menu ul li a {
   color: white;
   font-weight: 600;
   font-size: 16px;
   text-transform: capitalize;
+}
+.header-area .header__offcanvas-btn {
+  width: 100%;
+  margin: auto;
+  display: none;
+}
+.header-area .header__offcanvas-btn i {
+  font-size: 30px;
+  color: white;
 }
 
 /* <========== Banner ==========> */
@@ -689,10 +702,18 @@ a {
   }
   /* <========== Header ==========> */
   .header-area .header {
-    padding: 10px;
+    padding: 15px;
+    grid-template-columns: 50% 50%;
+    grid-gap: 0;
+    justify-content: space-between;
   }
   .header-area .header__menu {
     display: none;
+  }
+  .header-area .header__offcanvas-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
   }
   /* <========== Banner ==========> */
   /* <========== Services ==========> */
